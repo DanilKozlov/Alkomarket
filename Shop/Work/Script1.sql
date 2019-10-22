@@ -31,3 +31,4 @@ WHERE Categories.Title = N'Test' ;
 
 DELETE FROM Products 
 WHERE Products.Sku = N'00001154454' ;
+

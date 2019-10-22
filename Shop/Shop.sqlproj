@@ -75,5 +75,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Work\Script1.sql" />
+    <None Include="Work\ScriptwithJoin.sql" />
   </ItemGroup>
 </Project>
