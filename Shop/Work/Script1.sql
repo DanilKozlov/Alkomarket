@@ -28,3 +28,6 @@ WHERE Categories.id = 12;
 
 DELETE FROM Categories 
 WHERE Categories.Title = N'Test' ;
+
+DELETE FROM Products 
+WHERE Products.Sku = N'00001154454' ;

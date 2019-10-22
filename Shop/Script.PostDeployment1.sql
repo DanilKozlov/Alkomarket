@@ -35,7 +35,8 @@ INSERT INTO Products (Title, Sku) VALUES
 (N'Captain Morgan','5000281039404'),
 (N'Балтика 7','4600682012702'),
 (N'Doudet Naudin Chablis','3660600001936'),
-(N'Revo','4820097890690');
+(N'Revo','4820097890690'),
+(N'testdelete','00001154454');
 
 INSERT INTO ProductCategories (ProductId, CategoryId) VALUES
 (
