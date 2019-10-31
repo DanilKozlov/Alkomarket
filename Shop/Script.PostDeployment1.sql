@@ -202,3 +202,5 @@ Insert into Operations (Datatime,Price)values('01.08.2019',2000);
 EXEC AddProduct '16.9.2019',1,31,58.96,2;
 
 EXEC SellProduct '17.9.2019',1,30,59,1;
+
+--te
