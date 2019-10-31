@@ -14,6 +14,8 @@ SELECT * FROM Purchases
 
 SELECT * FROM Sales
 
+SELECT * from Operations
+
 UPDATE Products
 SET Title = N'Red_Bull' WHERE Products.Title= N'Red Bull';
 
@@ -31,4 +33,5 @@ WHERE Categories.Title = N'Test' ;
 
 DELETE FROM Products 
 WHERE Products.Sku = N'00001154454' ;
+
 

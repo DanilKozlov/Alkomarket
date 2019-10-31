@@ -25,13 +25,12 @@ FROM Purchases AS pr
 
 WHERE Datatime BETWEEN '26.09.2019' AND '30.09.2019'
 
-
 SELECT SUM(Quantity) as N'Количество товара на текущий момент времени' FROM (
 SELECT Quantity FROM Purchases 
 JOIN Products
 ON Products.Id = Purchases.ProductId
 WHERE Products.Id = 2
-UNION
+UNION all
 SELECT (Quantity * -1) FROM Sales JOIN Products ON Products.Id = Sales.ProductId
 WHERE Products.Id = 2
 )AS T;

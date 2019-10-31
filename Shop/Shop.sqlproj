@@ -59,6 +59,7 @@
     <Folder Include="Properties" />
     <Folder Include="Tables" />
     <Folder Include="Work" />
+    <Folder Include="Procedure" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Categories.sql" />
@@ -69,6 +70,9 @@
     <Build Include="Tables\Country.sql" />
     <Build Include="Tables\Purchases.sql" />
     <Build Include="Tables\Sales.sql" />
+    <Build Include="Tables\Operations.sql" />
+    <Build Include="Procedure\Procedure1.sql" />
+    <Build Include="Procedure\Procedure2.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Script.PostDeployment1.sql" />

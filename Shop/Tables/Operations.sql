@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Operations]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY,
+	[Datatime] DATETIME NOT NULL, 
+	[Price] MONEY NOT NULL, 
+)

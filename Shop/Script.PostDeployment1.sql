@@ -152,9 +152,6 @@ INSERT INTO Purchases(Datatime,ProductId,Quantity,Price,ProvidersId) VALUES
 ('25.09.2019',1,1,63.25,1),
 ('10.09.2019',2,10,7.43,1),
 ('24.09.2019',2,28,7.94,3),
-
---('25.09.2019',2,20,7.94,2),
-
 ('2.09.2019',3,7,8.50,3),
 ('14.09.2019',3,14,9,1),
 ('8.09.2019',4,13,0.95,3),
@@ -198,3 +195,10 @@ INSERT INTO Sales(Datatime,ProductId,Quantity,Price,BuyersId) VALUES
 ('30.09.2019',10,41,27.9,1),
 ('11.09.2019',11,16,1.48,3),
 ('19.09.2019',11,19,1.95,1);
+
+--Стартовый капитал 
+Insert into Operations (Datatime,Price)values('01.08.2019',2000);
+
+EXEC AddProduct '16.9.2019',1,31,58.96,2;
+
+EXEC SellProduct '17.9.2019',1,30,59,1;
