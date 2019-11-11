@@ -60,6 +60,8 @@
     <Folder Include="Tables" />
     <Folder Include="Work" />
     <Folder Include="Procedure" />
+    <Folder Include="Trigger" />
+    <Folder Include="07.11.2019" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Categories.sql" />
@@ -73,6 +75,11 @@
     <Build Include="Tables\Operations.sql" />
     <Build Include="Procedure\Procedure1.sql" />
     <Build Include="Procedure\Procedure2.sql" />
+    <Build Include="Tables\Logs.sql" />
+    <Build Include="Trigger\Trigger1.sql" />
+    <Build Include="07.11.2019\TableTask.sql" />
+    <Build Include="07.11.2019\ProcedureTask.sql" />
+    <Build Include="Procedure\Procedure3.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Script.PostDeployment1.sql" />
@@ -80,5 +87,7 @@
   <ItemGroup>
     <None Include="Work\Script1.sql" />
     <None Include="Work\ScriptwithJoin.sql" />
+    <None Include="07.11.2019\ScriptTask.sql" />
+    <None Include="Cert.sql" />
   </ItemGroup>
 </Project>

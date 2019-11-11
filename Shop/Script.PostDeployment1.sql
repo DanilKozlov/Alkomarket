@@ -203,4 +203,12 @@ EXEC AddProduct '16.9.2019',1,31,58.96,2;
 
 EXEC SellProduct '17.9.2019',1,30,59,1;
 
---te
+--task 07.11.2019
+
+Insert Into TableTask (Message) values
+
+(N'm1'),
+(N'm2'),
+(N'm3'),
+(N'm4'),
+(N'm5');

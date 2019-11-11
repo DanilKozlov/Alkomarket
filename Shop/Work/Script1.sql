@@ -35,3 +35,10 @@ DELETE FROM Products
 WHERE Products.Sku = N'00001154454' ;
 
 
+select GETDATE()  
+--Select Year (GETDATE())
+Select YEAR('2019-08-11')--Получить год из переданной даты-времени
+Select MONTH('2019-02-11')--Получить месяц из переданной даты-времени
+Select DAY('2019-02-25')--Получить дату из переданной даты-времени
+SELECT DATEDIFF(DAY, '2019-02-01', '2019-03-15')--Получить разницу в днях между двумя дата-время
+select DATEADD(month,+2,'2019-02-01')--not work
