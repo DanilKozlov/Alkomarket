@@ -62,6 +62,7 @@
     <Folder Include="Procedure" />
     <Folder Include="Trigger" />
     <Folder Include="07.11.2019" />
+    <Folder Include="Views" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Categories.sql" />
@@ -80,6 +81,10 @@
     <Build Include="07.11.2019\TableTask.sql" />
     <Build Include="07.11.2019\ProcedureTask.sql" />
     <Build Include="Procedure\Procedure3.sql" />
+    <Build Include="Views\View1.sql" />
+    <Build Include="Views\View2.sql" />
+    <Build Include="Views\View3.sql" />
+    <Build Include="Views\View4.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Script.PostDeployment1.sql" />
